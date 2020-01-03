@@ -1,0 +1,12 @@
+{
+  "name": "emuxo-css",
+  "version": "1.0.0",
+  "scripts": {
+    "browser-sync": "browser-sync start --server --files emuxo.css index.html",
+    "stylus": "stylus -w emuxo.styl -o emuxo.css"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "stylus": "^0.54.7"
+  }
+}
