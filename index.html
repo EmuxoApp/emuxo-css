@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Emuxo CSS Prototypes</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Google Font: Muli --> <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./emuxo.css" />
+</head>
+
+<body>
+	<div class="em-dashboard">
+		<div class="em-dashboard-nav">
+
+			<!-- Navigation -->
+			<nav>
+				<div>Nichola</div>
+				<ul>
+					<li><a href="#">Pages</a></li>
+					<li><a href="#">Data</a></li>
+					<li><a href="#">Settings</a></li>
+				</ul>
+				<button class="em-button-link">Log Out</button>
+			</nav>
+
+		</div><!--
+        --><div class="em-dashboard-main">
+			<section class="em-section">
+				<div class="em-row-reverse" style="align-items: flex-middle">
+					<div class="em-col-auto">
+						<h1>Data</h1>
+					</div>
+					<div>
+						<button class="em-button">+ Add Table</button>
+					</div>
+				</div>
+				<div class="em-row">
+					<p>Your data is organized into tables.</p>
+				</div>
+			</section>
+			<section class="em-section">
+
+				<!-- Grid -->
+				<div class="em-row">
+					<h1>Grid</h1>
+				</div>
+				<div class="em-row">
+					<div class="em-col-1" style="border-right: 1px solid"><code>.em-col-1</code></div>
+					<div class="em-col-2" style="border-right: 1px solid"><code>.em-col-2</code></div>
+					<div class="em-col-3" style="border-right: 1px solid"><code>.em-col-3</code></div>
+					<div class="em-col-6"><code>.em-col-6</code></div>
+				</div>
+
+				<!-- Text -->
+				<div class="em-row">
+					<h1>Text</h1>
+				</div>
+				<div class="em-row">
+					<h1>Heading 1</h1>
+				</div>
+				<div class="em-row">
+					<h2>Heading 2</h2>
+				</div>
+				<div class="em-row">
+					<h3>Heading 3</h3>
+				</div>
+				<div class="em-row">
+					<p>
+						Paragraph.
+						This is a paragaph.
+						And here's a <a href="#">link</a>.
+						Here's some <em>emphasized text</em>.
+						Here's some <strong>strong text</strong>.
+						Here's some more text.
+					</p>
+				</div>
+
+				<!-- Textbox -->
+				<div class="em-row">
+					<h2>Textbox</h2>
+				</div>
+				<div class="em-row">
+					<div class="em-textbox" style="flex: auto">
+						<label>First Name</label>
+						<input type="text" placeholder="John" />
+						<div>
+							<p class="em-error">This is an error message.</p>
+							<p>This is a message.</p>
+						</div>
+					</div>
+					<div class="em-textbox" style="flex: auto">
+						<label>Last Name</label>
+						<input type="text" value="Doe" disabled />
+						<div>
+							<p>This textbox is disabled.</p>
+						</div>
+					</div>
+				</div>
+				<div class="em-row">
+					<div class="em-textbox">
+						<label>Last Name</label>
+						<input type="text" value="Doe" readonly />
+						<div>
+							<p>This textbox is read-only.</p>
+						</div>
+					</div>
+					<div class="em-textbox">
+						<label>Age</label>
+						<input type="number" />
+					</div>
+				</div>
+				<div class="em-row">
+					<div class="em-textarea" style="flex: auto">
+						<label>Last Name</label>
+						<textarea></textarea>
+						<div>
+							<p>This is a Textarea.</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Checkbox -->
+				<div class="em-row">
+					<h2>Checkbox</h2>
+				</div>
+				<div class="em-row">
+					<label class="em-checkbox">
+						<input type="checkbox" />
+						<span>
+							<span class="em-checkbox-check"></span>
+						</span>
+						<span>I agree to the terms and conditions.</span>
+					</label>
+				</div>
+				<div class="em-row">
+					<label class="em-checkbox">
+						<input type="checkbox" />
+						<span>
+							<span class="em-checkbox-check"></span>
+						</span>
+						<span>I am cool.</span>
+					</label>
+					<label class="em-checkbox">
+						<input type="checkbox" disabled checked />
+						<span>
+							<span class="em-checkbox-check"></span>
+						</span>
+						<span>I know I'm cool.</span>
+					</label>
+				</div>
+
+				<!-- Selection -->
+				<div class="em-row">
+					<h2>Selection</h2>
+				</div>
+				<div class="em-row">
+					<div>
+						<div>Select Your Gender</div>
+						<div class="em-selection">
+							<label><input type="radio" name="em-selection-1" /><span>Male</span></label>
+							<label><input type="radio" name="em-selection-1" /><span>Female</span></label>
+							<label><input type="radio" name="em-selection-1" /><span>Other</span></label>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+</body>
+
+</html>
