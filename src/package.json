@@ -2,8 +2,8 @@
   "name": "emuxo-css",
   "version": "1.0.0",
   "scripts": {
-    "browser-sync": "browser-sync start --server ../github.io --files ../github.io/emuxo.css ../github.io/index.html",
-    "stylus": "stylus -w emuxo.styl -o ../github.io/emuxo.css"
+    "browser-sync": "browser-sync start --server ../docs --files ../docs/emuxo.css ../docs/index.html",
+    "stylus": "stylus -w emuxo.styl -o ../docs/emuxo.css"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
