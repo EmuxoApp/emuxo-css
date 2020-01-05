@@ -216,7 +216,7 @@ button,
   flex-wrap: wrap;
   align-items: flex-start;
   margin: auto;
-  max-width: 800px;
+  max-width: 750px;
 }
 .em-row > *,
 .em-row-reverse > * {
