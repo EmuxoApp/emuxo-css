@@ -87,6 +87,10 @@ button.em-button-link {
   color: #808080;
   margin: 5px 0 0 2px;
 }
+.em-textbox p:first-child,
+.em-textarea p:first-child {
+  min-height: 1.5em;
+}
 .em-checkbox {
   display: flex;
   position: relative;
