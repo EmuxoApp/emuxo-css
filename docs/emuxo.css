@@ -18,6 +18,9 @@ a {
 code {
   background-color: rgba(0,0,0,0.1);
 }
+.em-error-message {
+  min-height: 1.5em;
+}
 button {
   outline: none;
   border: none;
@@ -294,6 +297,9 @@ h2 {
 }
 h3 {
   font-size: 22px;
+}
+.em-error-message {
+  color: #dc46a0;
 }
 button.em-button {
   background-color: #6bba7a;
