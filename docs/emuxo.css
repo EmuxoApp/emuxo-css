@@ -45,6 +45,7 @@ button.em-button-link {
 .em-textbox,
 .em-textarea {
   display: inline-block;
+  width: 345px;
 }
 .em-textbox label,
 .em-textarea label {
