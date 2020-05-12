@@ -178,10 +178,24 @@ button.em-button-link {
   height: 100vh;
   overflow-y: scroll;
 }
+.em-dashboard-mobilenavopener {
+  display: none;
+  width: 100%;
+  padding: 20px;
+  text-align: right;
+}
 .em-dashboard-nav {
   display: inline-block;
   width: 20%;
   height: 100vh;
+}
+.em-dashboard-nav .em-dashboard-nav-close {
+  display: none;
+  margin-bottom: 20px;
+  text-align: right;
+}
+.em-dashboard-nav .em-dashboard-nav-close span {
+  padding: 0px;
 }
 .em-dashboard-nav nav {
   margin: auto;
@@ -203,13 +217,30 @@ button.em-button-link {
   overflow: hidden;
   overflow-wrap: break-word;
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .em-dashboard-main {
     width: 100%;
+    height: auto;
+    overflow: visible;
+  }
+  .em-dashboard-mobilenavopener {
+    display: block;
   }
   .em-dashboard-nav {
-    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
+    overflow: auto;
+    z-index: 100;
+    background-color: #e5e5e5;
+  }
+  .em-dashboard-nav nav {
+    padding: 20px;
+    max-width: 400px;
+  }
+  .em-dashboard-nav nav .em-dashboard-nav-close {
+    display: block;
   }
 }
 h1,
