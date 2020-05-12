@@ -238,6 +238,9 @@ button.em-button-link {
     z-index: 100;
     background-color: #e5e5e5;
   }
+  .em-dashboard-nav.em-dashboard-nav-closed {
+    display: none;
+  }
   .em-dashboard-nav nav {
     padding: 20px;
     max-width: 400px;
