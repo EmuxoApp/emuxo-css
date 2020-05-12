@@ -189,6 +189,9 @@ button.em-button-link {
   width: 20%;
   height: 100vh;
 }
+.em-dashboard-nav.em-dashboard-nav-tall {
+  overflow-y: scroll;
+}
 .em-dashboard-nav .em-dashboard-nav-close {
   display: none;
   margin-bottom: 20px;
