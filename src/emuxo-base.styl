@@ -162,6 +162,92 @@ button.em-button-link
     opacity: 0.5
     cursor: not-allowed
 
+// Dropdown
+
+.em-dropdown
+  position: relative
+  width: 345px
+
+  p
+    color: grey
+    margin: 5px 0 0 2px
+    &:first-child
+      min-height: 1.5em
+
+.em-dropdown-backdrop
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  z-index: 10
+
+.em-dropdown-selection
+  position: relative // So z-index will work.
+  display: flex
+  align-items: center
+  padding: 10px
+  background-color: rgba(0, 0, 0, 0.05)
+  border-radius: 5px
+  cursor: pointer
+  z-index: 20
+
+  &:focus
+    background-color: rgba(0, 0, 0, 0.03)
+    box-shadow: $box-shadow-input-focus
+    outline: none
+
+  span:first-child
+    flex: 1
+    white-space: nowrap
+
+  span:nth-child(2)
+    flex: none
+    padding: 0 5px 5px 0
+
+.em-dropdown-selection-empty
+  color: rgba(132, 132, 132, 1)
+
+.em-dropdown-chevron
+  display: inline-block
+  width: 9px
+  height: 9px
+  border: solid black
+  border-width: 0 2px 2px 0
+  transform: rotate(45deg)
+
+.em-dropdown-options
+  position: absolute
+  margin: 9px 0 0 0
+  width: 345px
+  max-width: 100%
+  max-height: 168px
+  overflow-y: scroll
+  background-color: rgba(217, 217, 217, 1)
+  border-radius: 5px
+  box-shadow: $box-shadow-input-focus
+  z-index: 20
+
+  input
+    display: none
+
+  label
+    display: block
+    padding: 10px
+    color: rgb(0, 0, 0)
+    opacity: 0.7
+    cursor: pointer
+    z-index: 20
+
+    &:hover
+      background-color: rgba(0, 0, 0, 0.05)
+      opacity: 1
+
+    &:focus
+      background-color: rgba(0, 0, 0, 0.2)
+      opacity: 1
+      outline: none
+
 // Dashboard + Navigation
 
 .em-dashboard

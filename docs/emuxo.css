@@ -165,6 +165,91 @@ button.em-button-link {
   opacity: 0.5;
   cursor: not-allowed;
 }
+.em-dropdown {
+  position: relative;
+  width: 345px;
+}
+.em-dropdown p {
+  color: #808080;
+  margin: 5px 0 0 2px;
+}
+.em-dropdown p:first-child {
+  min-height: 1.5em;
+}
+.em-dropdown-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+.em-dropdown-selection {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(0,0,0,0.05);
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 20;
+}
+.em-dropdown-selection:focus {
+  background-color: rgba(0,0,0,0.03);
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+  outline: none;
+}
+.em-dropdown-selection span:first-child {
+  flex: 1;
+  white-space: nowrap;
+}
+.em-dropdown-selection span:nth-child(2) {
+  flex: none;
+  padding: 0 5px 5px 0;
+}
+.em-dropdown-selection-empty {
+  color: #848484;
+}
+.em-dropdown-chevron {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border: solid #000;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.em-dropdown-options {
+  position: absolute;
+  margin: 9px 0 0 0;
+  width: 345px;
+  max-width: 100%;
+  max-height: 168px;
+  overflow-y: scroll;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
+  z-index: 20;
+}
+.em-dropdown-options input {
+  display: none;
+}
+.em-dropdown-options label {
+  display: block;
+  padding: 10px;
+  color: #000;
+  opacity: 0.7;
+  cursor: pointer;
+  z-index: 20;
+}
+.em-dropdown-options label:hover {
+  background-color: rgba(0,0,0,0.05);
+  opacity: 1;
+}
+.em-dropdown-options label:focus {
+  background-color: rgba(0,0,0,0.2);
+  opacity: 1;
+  outline: none;
+}
 .em-dashboard {
   height: 100vh;
 }
@@ -372,6 +457,15 @@ button.em-button-link:focus {
 }
 .em-selection input[type="radio"]:checked + span {
   color: #6bba7a;
+}
+.em-dropdown p {
+  font-size: 14px;
+}
+.em-dropdown p.em-error {
+  color: #dc46a0;
+}
+.em-dropdown-options label.em-dropdown-options-selected {
+  background-color: #6bba7a;
 }
 a {
   color: #4193f2;
