@@ -357,7 +357,7 @@ button,
 }
 .em-row > *,
 .em-row-reverse > * {
-  margin: 15px;
+  padding: 15px;
 }
 .em-row-align-items-center {
   align-items: center;
