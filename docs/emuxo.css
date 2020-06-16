@@ -305,6 +305,14 @@ button.em-button-link {
   overflow: hidden;
   overflow-wrap: break-word;
 }
+@media (min-width: 1500px) {
+  .em-dashboard-nav {
+    padding-left: 5%;
+  }
+  .em-dashboard-main {
+    padding-right: 20%;
+  }
+}
 @media (max-width: 700px) {
   .em-dashboard-main {
     width: 100%;
