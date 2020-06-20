@@ -187,6 +187,7 @@ button.em-button-link {
 .em-dropdown-selection {
   position: relative;
   display: flex;
+  margin: 5px 0 0 0;
   align-items: center;
   padding: 10px;
   background-color: rgba(0,0,0,0.05);
@@ -448,16 +449,19 @@ button.em-button-link {
 button.em-button-link:focus {
   text-shadow: 0 0 2px rgba(0,0,0,0.2);
 }
-.em-textbox label,
-.em-textarea label {
+.em-textbox > label,
+.em-textarea > label,
+.em-dropdown > label {
   font-size: 14px;
 }
 .em-textbox p,
-.em-textarea p {
+.em-textarea p,
+.em-dropdown p {
   font-size: 14px;
 }
 .em-textbox p.em-error,
-.em-textarea p.em-error {
+.em-textarea p.em-error,
+.em-dropdown p.em-error {
   color: #dc46a0;
 }
 .em-checkbox input[type="checkbox"]:checked + span {
@@ -465,12 +469,6 @@ button.em-button-link:focus {
 }
 .em-selection input[type="radio"]:checked + span {
   color: #6bba7a;
-}
-.em-dropdown p {
-  font-size: 14px;
-}
-.em-dropdown p.em-error {
-  color: #dc46a0;
 }
 .em-dropdown-options label.em-dropdown-options-selected {
   background-color: #6bba7a;
