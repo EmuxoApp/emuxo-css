@@ -32,8 +32,8 @@ button.em-button-link
   &:focus
     text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 
-.em-textbox, .em-textarea
-  label
+.em-textbox, .em-textarea, .em-dropdown
+  > label
     font-size: $font-size-small
   p
     font-size: $font-size-small
@@ -47,12 +47,6 @@ button.em-button-link
 .em-selection
   input[type="radio"]:checked + span
     color: $color-green
-
-.em-dropdown
-  p
-    font-size: $font-size-small
-    &.em-error
-      color: $color-red
 
 .em-dropdown-options
   label.em-dropdown-options-selected
