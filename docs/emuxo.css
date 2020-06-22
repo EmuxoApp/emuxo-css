@@ -425,7 +425,7 @@ input[type=number] {
 }
 body {
   color: #3c3c3c;
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0,0,0,0.05);
 }
 h1 {
   font-size: 40px;
