@@ -29,7 +29,8 @@ button {
 button.em-button {
   padding: 10px 15px;
   min-width: 100px;
-  color: rgba(0,0,0,0.5);
+  color: rgba(0,0,0,0.8);
+  text-shadow: -1px 1px rgba(255,255,255,0.2);
   border-radius: 5px;
 }
 button.em-button:focus {
