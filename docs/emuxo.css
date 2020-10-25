@@ -442,6 +442,12 @@ h3 {
 button.em-button {
   background-color: #6bba7a;
 }
+button.em-button-danger {
+  background-color: #dc46a0;
+}
+button.em-button-secondary {
+  background-color: #c8c8c8;
+}
 button.em-button-link {
   color: #4193f2;
   font-size: 18px;
