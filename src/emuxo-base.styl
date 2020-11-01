@@ -43,6 +43,11 @@ button.em-button-link
   margin: 0
   background: none
 
+button.em-button, button.em-button-link
+  &:disabled
+      opacity: 0.4
+      cursor: not-allowed
+
 .button-container
   display: flex
   justify-content: flex-end
