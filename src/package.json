@@ -2,10 +2,8 @@
   "name": "emuxo-css",
   "version": "1.0.0",
   "scripts": {
-    "start": "npm run serve:css && npm run serve:docs",
-    "serve:docs": "browser-sync start --server ../docs --files ../docs/emuxo.css ../docs/index.html",
-    "serve:css": "stylus -w emuxo.styl -o ../docs/emuxo.css &",
-    "build": "stylus emuxo.styl -o ../docs/emuxo.css"
+    "serve-docs": "browser-sync start --server ../docs --files ../docs/emuxo.css ../docs/index.html",
+    "compile-stylus": "stylus -w emuxo.styl -o ../docs/emuxo.css"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
