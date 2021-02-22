@@ -257,6 +257,47 @@ button.em-button-link:disabled {
   opacity: 1;
   outline: none;
 }
+.em-modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255,255,255,0.9);
+  z-index: 50;
+}
+.em-modal {
+  position: relative;
+  margin: 50px auto 0 auto;
+  padding-top: 30px;
+  padding-bottom: 15px;
+  width: 90%;
+  max-width: 600px;
+  max-height: 90%;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0 0 30px 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+.em-modal > * {
+  position: relative;
+  z-index: 100;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.em-modal .em-modal-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  z-index: 101;
+}
+@media (max-width: 600px), (max-height: 600px) {
+  .em-modal {
+    margin-top: 15px;
+  }
+}
 .em-dashboard {
   height: 100vh;
 }
