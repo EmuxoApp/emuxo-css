@@ -473,7 +473,7 @@ input[type=number] {
 }
 body {
   color: #3c3c3c;
-  background-color: rgba(0,0,0,0.05);
+  background-color: #fff;
 }
 h1 {
   font-size: 40px;
