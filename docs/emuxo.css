@@ -68,6 +68,7 @@ button.em-button {
   padding: 10px 15px;
   min-width: 100px;
   color: rgba(0,0,0,0.8);
+  font-weight: 700;
   text-shadow: -1px 1px rgba(255,255,255,0.2);
   border-radius: 5px;
 }
@@ -526,7 +527,7 @@ h3 {
   color: #dc46a0;
 }
 button.em-button {
-  background-color: #6bba7a;
+  background-color: #8cc896;
 }
 button.em-button-danger {
   background-color: #dc46a0;
@@ -557,13 +558,13 @@ button.em-button-link:focus {
   color: #dc46a0;
 }
 .em-checkbox input[type="checkbox"]:checked + span {
-  background-color: #6bba7a;
+  background-color: #8cc896;
 }
 .em-selection input[type="radio"]:checked + span {
-  color: #6bba7a;
+  color: #8cc896;
 }
 .em-dropdown-options label.em-dropdown-options-selected {
-  background-color: #6bba7a;
+  background-color: #8cc896;
 }
 a {
   color: #4193f2;
@@ -572,7 +573,7 @@ a {
   color: #dc46a0;
 }
 .em-color-green {
-  color: #6bba7a;
+  color: #8cc896;
 }
 .em-color-blue {
   color: #4193f2;
