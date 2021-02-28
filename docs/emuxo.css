@@ -392,6 +392,9 @@ button.em-button-link:disabled {
   overflow: hidden;
   overflow-wrap: break-word;
 }
+.em-dashboard-nav nav ul li .em-dashboard-nav-active-link {
+  border-bottom: solid 2px;
+}
 @media (min-width: 1500px) {
   .em-dashboard-nav {
     padding-left: 5%;
