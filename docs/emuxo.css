@@ -64,7 +64,9 @@ button {
   border: none;
   cursor: pointer;
 }
-button.em-button {
+button.em-button,
+a.em-button {
+  display: inline-block;
   padding: 10px 15px;
   min-width: 100px;
   color: rgba(0,0,0,0.8);
@@ -72,7 +74,8 @@ button.em-button {
   text-shadow: -1px 1px rgba(255,255,255,0.2);
   border-radius: 5px;
 }
-button.em-button:focus {
+button.em-button:focus,
+a.em-button:focus {
   box-shadow: 0px 0px 4px rgba(0,0,0,0.2);
 }
 button.em-button-link {
@@ -529,13 +532,16 @@ h3 {
 .em-error-message {
   color: #dc46a0;
 }
-button.em-button {
+button.em-button,
+a.em-button {
   background-color: #8cc896;
 }
-button.em-button-danger {
+button.em-button-danger,
+a.em-button-danger {
   background-color: #dc46a0;
 }
-button.em-button-secondary {
+button.em-button-secondary,
+a.em-button-secondary {
   background-color: #c8c8c8;
 }
 button.em-button-link {
