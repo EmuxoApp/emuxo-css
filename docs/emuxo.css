@@ -340,82 +340,82 @@ button.em-button-link:disabled {
     margin-top: 15px;
   }
 }
-.em-dashboard {
+.em-frame {
   height: 100vh;
 }
-.em-dashboard-main,
-.em-dashboard-nav {
+.em-frame-main,
+.em-frame-nav {
   vertical-align: top;
 }
-.em-dashboard-main {
+.em-frame-main {
   display: inline-block;
   width: 80%;
   height: 100vh;
   overflow-y: scroll;
 }
-.em-dashboard-mobilenavopener {
+.em-frame-mobilenavopener {
   display: none;
   width: 100%;
   padding: 20px;
   text-align: right;
 }
-.em-dashboard-nav {
+.em-frame-nav {
   display: inline-block;
   width: 20%;
   height: 100vh;
 }
-.em-dashboard-nav.em-dashboard-nav-tall {
+.em-frame-nav.em-frame-nav-tall {
   overflow-y: scroll;
 }
-.em-dashboard-nav .em-dashboard-nav-close {
+.em-frame-nav .em-frame-nav-close {
   display: none;
   margin-bottom: 20px;
   text-align: right;
 }
-.em-dashboard-nav .em-dashboard-nav-close span {
+.em-frame-nav .em-frame-nav-close span {
   padding: 0px;
 }
-.em-dashboard-nav nav {
+.em-frame-nav nav {
   margin: auto;
   max-width: 200px;
   padding: 40px 20px 20px 20px;
   margin: auto;
 }
-.em-dashboard-nav nav div {
+.em-frame-nav nav div {
   white-space: initial;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.em-dashboard-nav nav ul {
+.em-frame-nav nav ul {
   padding: 0;
   list-style: none;
 }
-.em-dashboard-nav nav ul li {
+.em-frame-nav nav ul li {
   padding: 8px 0;
   overflow: hidden;
   overflow-wrap: break-word;
 }
-.em-dashboard-nav nav ul li .em-dashboard-nav-active-link {
+.em-frame-nav nav ul li .em-frame-nav-active-link {
   border-bottom: solid 2px;
 }
 @media (min-width: 1500px) {
-  .em-dashboard-nav {
+  .em-frame-nav {
     padding-left: 5%;
   }
-  .em-dashboard-main {
+  .em-frame-main {
     padding-right: 20%;
   }
 }
 @media (max-width: 700px) {
-  .em-dashboard-main {
+  .em-frame-main {
     width: 100%;
     height: auto;
     overflow: visible;
   }
-  .em-dashboard-mobilenavopener {
+  .em-frame-mobilenavopener {
     display: block;
   }
-  .em-dashboard-nav {
+  .em-frame-nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -424,14 +424,14 @@ button.em-button-link:disabled {
     z-index: 100;
     background-color: #e5e5e5;
   }
-  .em-dashboard-nav.em-dashboard-nav-closed {
+  .em-frame-nav.em-frame-nav-closed {
     display: none;
   }
-  .em-dashboard-nav nav {
+  .em-frame-nav nav {
     padding: 20px;
     max-width: 400px;
   }
-  .em-dashboard-nav nav .em-dashboard-nav-close {
+  .em-frame-nav nav .em-frame-nav-close {
     display: block;
   }
 }
