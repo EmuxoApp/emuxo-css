@@ -89,6 +89,11 @@ button.em-button-link:disabled {
   opacity: 0.4;
   cursor: not-allowed;
 }
+button.em-button:disabled.em-button-loading,
+button.em-button-link:disabled.em-button-loading {
+  opacity: 0.4;
+  cursor: wait;
+}
 .button-container {
   display: flex;
   justify-content: flex-end;

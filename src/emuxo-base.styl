@@ -86,8 +86,12 @@ button.em-button-link
 
 button.em-button, button.em-button-link
   &:disabled
+    opacity: 0.4
+    cursor: not-allowed
+
+    &.em-button-loading
       opacity: 0.4
-      cursor: not-allowed
+      cursor: wait
 
 .button-container
   display: flex
