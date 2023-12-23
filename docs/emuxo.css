@@ -561,16 +561,6 @@ button.em-button-link {
 button.em-button-link:focus {
   text-shadow: 0 0 2px rgba(0,0,0,0.2);
 }
-.em-textbox > label,
-.em-textarea > label,
-.em-dropdown > label {
-  font-size: 14px;
-}
-.em-textbox p,
-.em-textarea p,
-.em-dropdown p {
-  font-size: 14px;
-}
 .em-textbox p.em-error,
 .em-textarea p.em-error,
 .em-dropdown p.em-error {
