@@ -357,6 +357,7 @@ button.em-button-link:disabled.em-button-loading {
   width: 80%;
   height: 100vh;
   overflow-y: scroll;
+  box-shadow: 0 0px 10px 0 rgba(0,0,0,0.05);
 }
 .em-frame-mobilenavopener {
   display: none;
@@ -368,6 +369,7 @@ button.em-button-link:disabled.em-button-loading {
   display: inline-block;
   width: 20%;
   height: 100vh;
+  background-color: rgba(0,0,0,0.01);
 }
 .em-frame-nav.em-frame-nav-tall {
   overflow-y: scroll;
