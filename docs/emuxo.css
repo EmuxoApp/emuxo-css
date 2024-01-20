@@ -423,6 +423,7 @@ button.em-button-link:disabled.em-button-loading {
     width: 100%;
     height: auto;
     overflow: visible;
+    box-shadow: none;
   }
   .em-frame-mobilenavopener {
     display: block;
