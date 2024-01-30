@@ -528,9 +528,9 @@ input[type=number] {
   font-weight: 500;
   font-size: 18px;
   line-height: 1.5;
+  color: #3c3c3c;
 }
 body {
-  color: #3c3c3c;
   background-color: #fff;
 }
 h1 {
