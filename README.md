@@ -5,6 +5,12 @@
 
 See the [`emuxo-css` **demo/docs here**](https://nimjay.github.io/emuxo-css/).
 
+To use `emuxo-css` in your own website, just copy over the file at [/docs/emuxo.css](https://github.com/EmuxoApp/emuxo-css/blob/main/docs/emuxo.css).
+Alternatively, you could import the file from emuxoapp.github.io/emuxo-css/emuxo.css:
+```
+<link href="https://emuxoapp.github.io/emuxo-css/emuxo.css" rel="stylesheet" type="text/css">
+```
+
 ## Develop on your machine
 
 If you would like to make source code changes to `emuxo-css` (on your local machine), follow these steps:
